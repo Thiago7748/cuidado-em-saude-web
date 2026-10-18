@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <!-- Ajusta a largura da página à tela do dispositivo. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuidado em Saúde | Autocuidado</title>
+    <!-- defer executa o JavaScript depois que o HTML estiver carregado. -->
+    <script src="js/autocuidado.js" defer></script>
+</head>
+<body>
+    <!-- Cabeçalho com a identidade do projeto e o menu comum às quatro páginas. -->
+    <header>
+        <!-- A div reúne a futura imagem de destaque e o título principal. -->
+        <div class="identidade-visual">
+            <!-- A imagem de destaque será adicionada em uma etapa futura. -->
+            <h1>Cuidado em Saúde</h1>
+        </div>
+
+        <!-- nav agrupa links de navegação; aria-current identifica a página aberta. -->
+        <nav aria-label="Navegação principal">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="cuidados.html">Cuidados</a></li>
+                <li><a href="bem-estar.html">Bem-estar</a></li>
+                <li><a href="autocuidado.html" aria-current="page">Autocuidado</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- main contém o conteúdo específico desta página. -->
+    <main>
+        <!-- section apresenta o checklist e sua finalidade. -->
+        <section aria-labelledby="titulo-autocuidado">
+            <h2 id="titulo-autocuidado">Checklist de autocuidado</h2>
+            <p>Marque os cuidados que fazem parte da sua rotina.</p>
+
+            <!-- Esta div reúne os elementos usados pelo JavaScript do checklist. -->
+            <div id="checklist-autocuidado">
+                <!-- fieldset agrupa as três caixas; legend dá um nome ao grupo. -->
+                <fieldset>
+                    <legend>Cuidados da rotina</legend>
+
+                    <!-- Cada input é uma caixa de seleção; label associa o texto à caixa pelo id. -->
+                    <p>
+                        <input type="checkbox" id="cuidado-1" name="cuidados">
+                        <label for="cuidado-1">Cuidado 1 (conteúdo a definir)</label>
+                    </p>
+
+                    <p>
+                        <input type="checkbox" id="cuidado-2" name="cuidados">
+                        <label for="cuidado-2">Cuidado 2 (conteúdo a definir)</label>
+                    </p>
+
+                    <p>
+                        <input type="checkbox" id="cuidado-3" name="cuidados">
+                        <label for="cuidado-3">Cuidado 3 (conteúdo a definir)</label>
+                    </p>
+                </fieldset>
+
+                <!-- output mostra a contagem; aria-live anuncia suas mudanças a leitores de tela. -->
+                <p><output id="contador-cuidados" aria-live="polite">0 de 3 cuidados marcados</output></p>
+                <!-- hidden mantém a mensagem oculta até os três itens serem marcados. -->
+                <p id="mensagem-conclusao" hidden>Você completou a lista de cuidados.</p>
+                <!-- O botão começa desativado e só é habilitado quando há algo para limpar. -->
+                <button type="button" id="limpar-cuidados" disabled>Limpar marcações</button>
+            </div>
+        </section>
+
+        <!-- Links para voltar à página anterior ou ao início. -->
+        <nav aria-label="Navegação entre páginas">
+            <a href="bem-estar.html">Anterior: Bem-estar</a>
+            <a href="index.html">Voltar ao Início</a>
+        </nav>
+    </main>
+
+    <footer>
+        <p>[Nome do aluno] | Desenvolvimento Web | Unisinos</p>
+    </footer>
+</body>
+</html>

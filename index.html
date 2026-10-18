@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <!-- Ajusta a largura da página à tela do dispositivo. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuidado em Saúde | Início</title>
+    <!-- Aplica a aparência apenas à página inicial nesta etapa. -->
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <!-- Cabeçalho com a identidade do projeto e o menu comum às quatro páginas. -->
+    <header>
+        <!-- A div reúne a imagem de destaque e o título principal. -->
+        <div class="identidade-visual">
+            <img src="assets/imagens/cuidado-cofen.jpg" alt="Profissional de saúde segura as mãos de uma paciente em um leito">
+            <h1>Cuidado em Saúde</h1>
+        </div>
+
+        <!-- nav agrupa links de navegação; aria-current identifica a página aberta. -->
+        <nav aria-label="Navegação principal">
+            <ul>
+                <li><a href="index.html" aria-current="page">Início</a></li>
+                <li><a href="cuidados.html">Cuidados</a></li>
+                <li><a href="bem-estar.html">Bem-estar</a></li>
+                <li><a href="autocuidado.html">Autocuidado</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- main contém o conteúdo específico desta página. -->
+    <main>
+        <!-- section reúne o artigo principal e o conteúdo complementar. -->
+        <section aria-labelledby="titulo-apresentacao">
+            <h2 id="titulo-apresentacao">Apresentação</h2>
+
+            <!-- article contém um texto que pode ser lido como conteúdo próprio. -->
+            <article aria-labelledby="titulo-artigo">
+                <h3 id="titulo-artigo">O que é cuidado em saúde?</h3>
+                <!-- Texto provisório para testar o espaço do artigo antes do conteúdo final. -->
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae neque sed justo facilisis tincidunt. Donec non erat sed magna varius interdum.</p>
+                <p>Praesent at ligula a lectus consequat fermentum. Sed euismod, nibh non tincidunt posuere, urna sapien tristique justo, vitae consequat massa lorem at ipsum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae neque sed justo facilisis tincidunt. Donec non erat sed magna varius interdum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae neque sed justo facilisis tincidunt. Donec non erat sed magna varius interdum.</p>
+            </article>
+
+            <!-- aside guarda uma informação relacionada, mas secundária ao artigo. -->
+            <aside aria-labelledby="titulo-destaque">
+                <h3 id="titulo-destaque">Em destaque</h3>
+                <figure>
+                    <img src="assets/imagens/consulta-nci.jpg" alt="Profissionais de saúde conversam com uma paciente durante uma consulta" loading="lazy">
+                    <figcaption>Uma conversa faz parte do cuidado.</figcaption>
+                </figure>
+                <p>Continue para a página de cuidados e conheça a próxima parte do projeto.</p>
+                <a class="chamada" href="cuidados.html">Ir para Cuidados</a>
+            </aside>
+        </section>
+
+        <!-- Link para continuar a leitura na próxima página. -->
+        <nav aria-label="Navegação entre páginas">
+            <a href="cuidados.html">Próxima: Cuidados</a>
+        </nav>
+    </main>
+
+    <footer>
+        <p>[Nome do aluno] | Desenvolvimento Web | Unisinos</p>
+        <p>Projeto acadêmico: Cuidado em Saúde</p>
+        <p class="creditos">Imagens: <a href="https://biblioteca.cofen.gov.br/o-cuidado-em-saude/">Biblioteca Virtual de Enfermagem do Cofen</a> e <a href="https://commons.wikimedia.org/wiki/File:Doctor_consults_with_patient.jpg">National Cancer Institute / Wikimedia Commons</a>.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,199 @@
+<mxfile host="65bd71144e">
+  <diagram id="wireframe" name="Protótipo das 4 telas">
+    <mxGraphModel dx="658" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1680" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontSize=13;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;arcSize=2;" value="" vertex="1">
+          <mxGeometry height="740" width="360" x="40" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#000000;fontSize=18;fontFamily=Arial;align=left;verticalAlign=middle;spacing=0;fontStyle=1;" value="1. INÍCIO" vertex="1">
+          <mxGeometry height="30" width="360" x="40" y="18" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontSize=14;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;fontStyle=1;" value="IMAGEM DE DESTAQUE&#xA;(referência visual: página do Cofen)" vertex="1">
+          <mxGeometry height="92" width="336" x="52" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#000000;fontSize=20;fontFamily=Arial;align=left;verticalAlign=middle;spacing=0;fontStyle=1;" value="Cuidado em Saúde" vertex="1">
+          <mxGeometry height="31" width="316" x="62" y="173" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontSize=11;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;" value="Início   |   Cuidados   |   Bem-estar   |   Autocuidado" vertex="1">
+          <mxGeometry height="37" width="336" x="52" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontSize=11;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;" value="[Nome do aluno] · Desenvolvimento Web · Unisinos" vertex="1">
+          <mxGeometry height="37" width="336" x="52" y="747" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontSize=13;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;arcSize=2;" value="" vertex="1">
+          <mxGeometry height="740" width="360" x="440" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#000000;fontSize=18;fontFamily=Arial;align=left;verticalAlign=middle;spacing=0;fontStyle=1;" value="2. CUIDADOS" vertex="1">
+          <mxGeometry height="30" width="360" x="440" y="18" as="geometry" />
+        </mxCell>
+        <mxCell id="10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontSize=14;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;fontStyle=1;" value="IMAGEM DE DESTAQUE&#xA;(referência visual: página do Cofen)" vertex="1">
+          <mxGeometry height="92" width="336" x="452" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#000000;fontSize=20;fontFamily=Arial;align=left;verticalAlign=middle;spacing=0;fontStyle=1;" value="Cuidado em Saúde" vertex="1">
+          <mxGeometry height="31" width="316" x="462" y="173" as="geometry" />
+        </mxCell>
+        <mxCell id="12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontSize=11;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;" value="Início   |   Cuidados   |   Bem-estar   |   Autocuidado" vertex="1">
+          <mxGeometry height="37" width="336" x="452" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontSize=11;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;" value="[Nome do aluno] · Desenvolvimento Web · Unisinos" vertex="1">
+          <mxGeometry height="37" width="336" x="452" y="747" as="geometry" />
+        </mxCell>
+        <mxCell id="14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontSize=13;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;arcSize=2;" value="" vertex="1">
+          <mxGeometry height="740" width="360" x="840" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#000000;fontSize=18;fontFamily=Arial;align=left;verticalAlign=middle;spacing=0;fontStyle=1;" value="3. BEM-ESTAR" vertex="1">
+          <mxGeometry height="30" width="360" x="840" y="18" as="geometry" />
+        </mxCell>
+        <mxCell id="16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontSize=14;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;fontStyle=1;" value="IMAGEM DE DESTAQUE&#xA;(referência visual: página do Cofen)" vertex="1">
+          <mxGeometry height="92" width="336" x="852" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#000000;fontSize=20;fontFamily=Arial;align=left;verticalAlign=middle;spacing=0;fontStyle=1;" value="Cuidado em Saúde" vertex="1">
+          <mxGeometry height="31" width="316" x="862" y="173" as="geometry" />
+        </mxCell>
+        <mxCell id="18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontSize=11;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;" value="Início   |   Cuidados   |   Bem-estar   |   Autocuidado" vertex="1">
+          <mxGeometry height="37" width="336" x="852" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontSize=11;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;" value="[Nome do aluno] · Desenvolvimento Web · Unisinos" vertex="1">
+          <mxGeometry height="37" width="336" x="852" y="747" as="geometry" />
+        </mxCell>
+        <mxCell id="20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontSize=13;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;arcSize=2;" value="" vertex="1">
+          <mxGeometry height="740" width="360" x="1240" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#000000;fontSize=18;fontFamily=Arial;align=left;verticalAlign=middle;spacing=0;fontStyle=1;" value="4. AUTOCUIDADO" vertex="1">
+          <mxGeometry height="30" width="360" x="1240" y="18" as="geometry" />
+        </mxCell>
+        <mxCell id="22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontSize=14;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;fontStyle=1;" value="IMAGEM DE DESTAQUE&#xA;(referência visual: página do Cofen)" vertex="1">
+          <mxGeometry height="92" width="336" x="1252" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#000000;fontSize=20;fontFamily=Arial;align=left;verticalAlign=middle;spacing=0;fontStyle=1;" value="Cuidado em Saúde" vertex="1">
+          <mxGeometry height="31" width="316" x="1262" y="173" as="geometry" />
+        </mxCell>
+        <mxCell id="24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontSize=11;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;" value="Início   |   Cuidados   |   Bem-estar   |   Autocuidado" vertex="1">
+          <mxGeometry height="37" width="336" x="1252" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontSize=11;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;" value="[Nome do aluno] · Desenvolvimento Web · Unisinos" vertex="1">
+          <mxGeometry height="37" width="336" x="1252" y="747" as="geometry" />
+        </mxCell>
+        <mxCell id="26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontSize=13;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;fontStyle=1;verticalAlign=top;spacingTop=12;" value="ARTICLE" vertex="1">
+          <mxGeometry height="440" width="205" x="52" y="261" as="geometry" />
+        </mxCell>
+        <mxCell id="27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#000000;fontSize=16;fontFamily=Arial;align=left;verticalAlign=middle;spacing=0;fontStyle=1;" value="O que é cuidado em saúde?" vertex="1">
+          <mxGeometry height="50" width="175" x="66" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#000000;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacing=0;" value="Texto introdutório curto sobre o tema e sobre o que o visitante encontrará no site." vertex="1">
+          <mxGeometry height="116" width="175" x="66" y="362" as="geometry" />
+        </mxCell>
+        <mxCell id="29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontSize=13;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;fontStyle=1;" value="Conheça os cuidados →" vertex="1">
+          <mxGeometry height="48" width="175" x="66" y="516" as="geometry" />
+        </mxCell>
+        <mxCell id="30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontSize=13;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;fontStyle=1;verticalAlign=top;spacingTop=12;" value="ASIDE" vertex="1">
+          <mxGeometry height="440" width="119" x="269" y="261" as="geometry" />
+        </mxCell>
+        <mxCell id="31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontSize=13;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;" value="IMAGEM" vertex="1">
+          <mxGeometry height="125" width="99" x="279" y="302" as="geometry" />
+        </mxCell>
+        <mxCell id="32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#000000;fontSize=12;fontFamily=Arial;align=left;verticalAlign=middle;spacing=0;" value="Destaque complementar e chamada para outra página." vertex="1">
+          <mxGeometry height="99" width="99" x="279" y="443" as="geometry" />
+        </mxCell>
+        <mxCell id="33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontSize=13;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;fontStyle=1;verticalAlign=top;spacingTop=12;" value="ARTICLE · CUIDADOS" vertex="1">
+          <mxGeometry height="440" width="336" x="452" y="261" as="geometry" />
+        </mxCell>
+        <mxCell id="34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#000000;fontSize=17;fontFamily=Arial;align=left;verticalAlign=middle;spacing=0;fontStyle=1;" value="Cuidados no dia a dia" vertex="1">
+          <mxGeometry height="38" width="304" x="468" y="301" as="geometry" />
+        </mxCell>
+        <mxCell id="35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#000000;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacing=0;" value="Texto breve apresentando o assunto e contextualizando o vídeo." vertex="1">
+          <mxGeometry height="85" width="304" x="468" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#000000;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacing=0;fontStyle=1;" value="Para saber mais, assista ao vídeo:" vertex="1">
+          <mxGeometry height="30" width="304" x="468" y="449" as="geometry" />
+        </mxCell>
+        <mxCell id="37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontSize=14;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;" value="VÍDEO DO YOUTUBE&#xA;(incorporado à página)" vertex="1">
+          <mxGeometry height="105" width="304" x="468" y="489" as="geometry" />
+        </mxCell>
+        <mxCell id="38" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontSize=13;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;fontStyle=1;verticalAlign=top;spacingTop=12;" value="SECTION · BEM-ESTAR" vertex="1">
+          <mxGeometry height="440" width="336" x="852" y="261" as="geometry" />
+        </mxCell>
+        <mxCell id="39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#000000;fontSize=17;fontFamily=Arial;align=left;verticalAlign=middle;spacing=0;fontStyle=1;" value="Bem-estar e acolhimento" vertex="1">
+          <mxGeometry height="42" width="304" x="868" y="303" as="geometry" />
+        </mxCell>
+        <mxCell id="40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#000000;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacing=0;" value="Introdução curta com fonte identificada." vertex="1">
+          <mxGeometry height="52" width="304" x="868" y="354" as="geometry" />
+        </mxCell>
+        <mxCell id="41" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontSize=13;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;" value="" vertex="1">
+          <mxGeometry height="85" width="304" x="868" y="417" as="geometry" />
+        </mxCell>
+        <mxCell id="42" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontSize=13;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;" value="" vertex="1">
+          <mxGeometry height="85" width="304" x="868" y="511" as="geometry" />
+        </mxCell>
+        <mxCell id="43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontSize=13;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;" value="" vertex="1">
+          <mxGeometry height="85" width="304" x="868" y="605" as="geometry" />
+        </mxCell>
+        <mxCell id="44" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontSize=13;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;fontStyle=1;verticalAlign=top;spacingTop=12;" value="SECTION · AUTOCUIDADO" vertex="1">
+          <mxGeometry height="440" width="336" x="1252" y="261" as="geometry" />
+        </mxCell>
+        <mxCell id="45" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#000000;fontSize=17;fontFamily=Arial;align=left;verticalAlign=middle;spacing=0;fontStyle=1;" value="Checklist de autocuidado" vertex="1">
+          <mxGeometry height="44" width="304" x="1268" y="301" as="geometry" />
+        </mxCell>
+        <mxCell id="46" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#000000;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacing=0;" value="Marque os cuidados que fazem parte da sua rotina. A contagem muda a cada marcação." vertex="1">
+          <mxGeometry height="48" width="304" x="1268" y="347" as="geometry" />
+        </mxCell>
+        <mxCell id="47" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontSize=13;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;align=left;spacingLeft=16;" value="□ Item de cuidado 1" vertex="1">
+          <mxGeometry height="42" width="304" x="1268" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="48" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontSize=13;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;align=left;spacingLeft=16;" value="□ Item de cuidado 2" vertex="1">
+          <mxGeometry height="42" width="304" x="1268" y="458" as="geometry" />
+        </mxCell>
+        <mxCell id="49" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontSize=13;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;align=left;spacingLeft=16;" value="□ Item de cuidado 3" vertex="1">
+          <mxGeometry height="42" width="304" x="1268" y="506" as="geometry" />
+        </mxCell>
+        <mxCell id="50" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontSize=12;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;fontStyle=1;" value="0 de 3 cuidados marcados&#xA;(contador em JavaScript)" vertex="1">
+          <mxGeometry height="47" width="304" x="1268" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="51" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#000000;fontSize=13;fontFamily=Arial;align=left;verticalAlign=middle;spacing=0;fontColor=#000000;" value="Protótipo de baixa fidelidade · Navegação anterior/próxima em todas as telas · Imagens, vídeo e textos finais ainda serão definidos." vertex="1">
+          <mxGeometry height="28" width="1540" x="40" y="825" as="geometry" />
+        </mxCell>
+        <mxCell id="content-image-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontSize=12;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;" value="IMAGEM 1" vertex="1">
+          <mxGeometry height="65" width="76" x="879" y="427" as="geometry" />
+        </mxCell>
+        <mxCell id="content-text-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#000000;fontSize=12;fontFamily=Arial;align=left;verticalAlign=middle;spacing=0;" value="Título do conteúdo 1&#xA;Resumo curto, visível na página." vertex="1">
+          <mxGeometry height="65" width="193" x="967" y="427" as="geometry" />
+        </mxCell>
+        <mxCell id="content-image-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontSize=12;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;" value="IMAGEM 2" vertex="1">
+          <mxGeometry height="65" width="76" x="879" y="521" as="geometry" />
+        </mxCell>
+        <mxCell id="content-text-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#000000;fontSize=12;fontFamily=Arial;align=left;verticalAlign=middle;spacing=0;" value="Título do conteúdo 2&#xA;Resumo curto, visível na página." vertex="1">
+          <mxGeometry height="65" width="193" x="967" y="521" as="geometry" />
+        </mxCell>
+        <mxCell id="content-image-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontSize=12;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;" value="IMAGEM 3" vertex="1">
+          <mxGeometry height="65" width="76" x="879" y="615" as="geometry" />
+        </mxCell>
+        <mxCell id="content-text-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#000000;fontSize=12;fontFamily=Arial;align=left;verticalAlign=middle;spacing=0;" value="Título do conteúdo 3&#xA;Resumo curto, visível na página." vertex="1">
+          <mxGeometry height="65" width="193" x="967" y="615" as="geometry" />
+        </mxCell>
+        <mxCell id="check-feedback" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#000000;fontSize=12;fontFamily=Arial;align=left;verticalAlign=middle;spacing=0;" value="Com os 3 marcados: Você completou a lista de cuidados." vertex="1">
+          <mxGeometry height="31" width="304" x="1268" y="613" as="geometry" />
+        </mxCell>
+        <mxCell id="check-clear" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontSize=12;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;" value="Limpar marcações" vertex="1">
+          <mxGeometry height="39" width="304" x="1268" y="651" as="geometry" />
+        </mxCell>
+        <mxCell id="video-source" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;fontColor=#000000;fontSize=12;fontFamily=Arial;align=left;verticalAlign=middle;spacing=0;" value="Título e fonte do vídeo serão identificados aqui." vertex="1">
+          <mxGeometry height="38" width="304" x="468" y="607" as="geometry" />
+        </mxCell>
+        <mxCell id="pager-home" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontSize=12;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;fontStyle=1;" value="Próxima: Cuidados →" vertex="1">
+          <mxGeometry height="31" width="336" x="52" y="708" as="geometry" />
+        </mxCell>
+        <mxCell id="pager-care" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontSize=12;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;fontStyle=1;" value="Voltar ao Início  |  Próxima: Bem-estar →" vertex="1">
+          <mxGeometry height="39" width="336" x="452" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="pager-wellness" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontSize=12;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;fontStyle=1;" value="← Cuidados  |  Início  |  Autocuidado →" vertex="1">
+          <mxGeometry height="39" width="336" x="852" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="pager-check" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontSize=12;fontFamily=Arial;align=center;verticalAlign=middle;spacing=6;fontStyle=1;" value="← Bem-estar     Voltar ao Início" vertex="1">
+          <mxGeometry height="31" width="336" x="1252" y="708" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

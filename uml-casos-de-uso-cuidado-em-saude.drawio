@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2026-10-18T00:00:00.000Z" agent="Codex" version="24.7.17" type="device">
+  <diagram id="casos-de-uso" name="UML - Casos de uso">
+    <mxGraphModel dx="1100" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="960" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Diagrama UML · Casos de uso" style="text;html=1;whiteSpace=wrap;fillColor=none;strokeColor=none;fontFamily=Arial;fontColor=#000000;fontSize=21;fontStyle=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="50" y="28" width="750" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="note" value="Ator: pessoa que visita o site. As elipses mostram o que ela pode fazer." style="text;html=1;whiteSpace=wrap;fillColor=none;strokeColor=none;fontFamily=Arial;fontColor=#000000;fontSize=13;align=left;" vertex="1" parent="1">
+          <mxGeometry x="50" y="68" width="800" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="system" value="Sistema: Cuidado em Saúde" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontFamily=Arial;fontSize=16;fontStyle=1;fontColor=#000000;verticalAlign=top;spacingTop=15;" vertex="1" parent="1">
+          <mxGeometry x="270" y="112" width="650" height="755" as="geometry" />
+        </mxCell>
+        <mxCell id="visitor" value="Visitante" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontFamily=Arial;fontSize=16;fontColor=#000000;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="85" y="365" width="90" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="home" value="Consultar página inicial" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontFamily=Arial;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="350" y="180" width="490" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="link_home" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.5;" edge="1" parent="1" source="visitor" target="home">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="care" value="Ler orientações de cuidados" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontFamily=Arial;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="350" y="260" width="490" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="link_care" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.5;" edge="1" parent="1" source="visitor" target="care">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="video" value="Assistir vídeo de cuidados" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontFamily=Arial;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="350" y="340" width="490" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="link_video" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.5;" edge="1" parent="1" source="visitor" target="video">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wellness" value="Ler conteúdo de bem-estar" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontFamily=Arial;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="350" y="420" width="490" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="link_wellness" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.5;" edge="1" parent="1" source="visitor" target="wellness">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="check" value="Marcar itens de autocuidado" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontFamily=Arial;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="350" y="500" width="490" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="link_check" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.5;" edge="1" parent="1" source="visitor" target="check">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="count" value="Ver quantidade de itens marcados" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontFamily=Arial;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="350" y="580" width="490" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="link_count" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.5;" edge="1" parent="1" source="visitor" target="count">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="navigate" value="Navegar entre páginas" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontFamily=Arial;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="350" y="660" width="490" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="link_navigate" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.5;" edge="1" parent="1" source="visitor" target="navigate">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="clear" value="Limpar marcações do checklist" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.5;fontFamily=Arial;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="350" y="740" width="490" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="link_clear" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.5;" edge="1" parent="1" source="visitor" target="clear">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

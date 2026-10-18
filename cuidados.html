@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <!-- Ajusta a largura da página à tela do dispositivo. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuidado em Saúde | Cuidados</title>
+</head>
+<body>
+    <!-- Cabeçalho com a identidade do projeto e o menu comum às quatro páginas. -->
+    <header>
+        <!-- A div reúne a futura imagem de destaque e o título principal. -->
+        <div class="identidade-visual">
+            <!-- A imagem de destaque será adicionada em uma etapa futura. -->
+            <h1>Cuidado em Saúde</h1>
+        </div>
+
+        <!-- nav agrupa links de navegação; aria-current identifica a página aberta. -->
+        <nav aria-label="Navegação principal">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="cuidados.html" aria-current="page">Cuidados</a></li>
+                <li><a href="bem-estar.html">Bem-estar</a></li>
+                <li><a href="autocuidado.html">Autocuidado</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- main contém o conteúdo específico desta página. -->
+    <main>
+        <!-- article reúne o texto de cuidados e a indicação do vídeo. -->
+        <article aria-labelledby="titulo-cuidados">
+            <h2 id="titulo-cuidados">Cuidados no dia a dia</h2>
+            <p>Este espaço receberá um texto breve sobre o tema.</p>
+
+            <!-- section separa a chamada para o vídeo dentro do artigo. -->
+            <section aria-labelledby="titulo-video">
+                <h3 id="titulo-video">Para saber mais</h3>
+                <p>Assista ao vídeo abaixo para conhecer mais sobre o assunto.</p>
+                <!-- O vídeo do YouTube e sua fonte serão adicionados após a escolha do conteúdo. -->
+                <p>Vídeo a ser definido.</p>
+            </section>
+        </article>
+
+        <!-- Nesta página, voltar ao Início também é voltar à página anterior. -->
+        <nav aria-label="Navegação entre páginas">
+            <a href="index.html">Voltar ao Início</a>
+            <a href="bem-estar.html">Próxima: Bem-estar</a>
+        </nav>
+    </main>
+
+    <footer>
+        <p>[Nome do aluno] | Desenvolvimento Web | Unisinos</p>
+    </footer>
+</body>
+</html>
