@@ -5,8 +5,16 @@
     <!-- Ajusta a largura da página à tela do dispositivo. -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cuidado em Saúde | Início</title>
-    <!-- Aplica a aparência apenas à página inicial nesta etapa. -->
+
+    <!-- O mesmo arquivo CSS é usado nas quatro páginas. -->
     <link rel="stylesheet" href="css/estilo.css">
+
+
+    <!-- Scripts JavaScript -->
+
+    <!-- O arquivo JS coloca o mesmo rodapé nas quatro páginas. -->
+    <script src="js/footer.js" defer></script>
+
 </head>
 <body>
     <!-- Cabeçalho com a identidade do projeto e o menu comum às quatro páginas. -->
@@ -31,7 +39,7 @@
     <!-- main contém o conteúdo específico desta página. -->
     <main>
         <!-- section reúne o artigo principal e o conteúdo complementar. -->
-        <section aria-labelledby="titulo-apresentacao">
+        <section class="apresentacao" aria-labelledby="titulo-apresentacao">
             <h2 id="titulo-apresentacao">Apresentação</h2>
 
             <!-- article contém um texto que pode ser lido como conteúdo próprio. -->
@@ -62,10 +70,7 @@
         </nav>
     </main>
 
-    <footer>
-        <p>[Nome do aluno] | Desenvolvimento Web | Unisinos</p>
-        <p>Projeto acadêmico: Cuidado em Saúde</p>
-        <p class="creditos">Imagens: <a href="https://biblioteca.cofen.gov.br/o-cuidado-em-saude/">Biblioteca Virtual de Enfermagem do Cofen</a> e <a href="https://commons.wikimedia.org/wiki/File:Doctor_consults_with_patient.jpg">National Cancer Institute / Wikimedia Commons</a>.</p>
-    </footer>
+    <!-- O conteúdo deste footer é inserido pelo arquivo js/footer.js. -->
+    <footer></footer>
 </body>
 </html>

@@ -5,15 +5,25 @@
     <!-- Ajusta a largura da página à tela do dispositivo. -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cuidado em Saúde | Autocuidado</title>
+
+    <!-- Compartilha as cores e os estilos básicos com as outras páginas. -->
+    <link rel="stylesheet" href="css/estilo.css">
+
+
+    <!-- Scripts JavaScript -->
+
+    <!-- O arquivo JS coloca o mesmo rodapé nas quatro páginas. -->
+    <script src="js/footer.js" defer></script>
     <!-- defer executa o JavaScript depois que o HTML estiver carregado. -->
     <script src="js/autocuidado.js" defer></script>
+
 </head>
 <body>
     <!-- Cabeçalho com a identidade do projeto e o menu comum às quatro páginas. -->
     <header>
-        <!-- A div reúne a futura imagem de destaque e o título principal. -->
+        <!-- A div reúne a imagem de destaque e o título principal. -->
         <div class="identidade-visual">
-            <!-- A imagem de destaque será adicionada em uma etapa futura. -->
+            <img src="assets/imagens/cuidado-cofen.jpg" alt="Profissional de saúde segura as mãos de uma paciente em um leito">
             <h1>Cuidado em Saúde</h1>
         </div>
 
@@ -29,11 +39,13 @@
     </header>
 
     <!-- main contém o conteúdo específico desta página. -->
-    <main>
+    <main class="pagina-interna">
         <!-- section apresenta o checklist e sua finalidade. -->
         <section aria-labelledby="titulo-autocuidado">
             <h2 id="titulo-autocuidado">Checklist de autocuidado</h2>
             <p>Marque os cuidados que fazem parte da sua rotina.</p>
+            <!-- Texto provisório de apoio ao checklist. -->
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae neque sed justo facilisis tincidunt.</p>
 
             <!-- Esta div reúne os elementos usados pelo JavaScript do checklist. -->
             <div id="checklist-autocuidado">
@@ -74,8 +86,7 @@
         </nav>
     </main>
 
-    <footer>
-        <p>[Nome do aluno] | Desenvolvimento Web | Unisinos</p>
-    </footer>
+    <!-- O conteúdo deste footer é inserido pelo arquivo js/footer.js. -->
+    <footer></footer>
 </body>
 </html>

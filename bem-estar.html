@@ -6,13 +6,21 @@
     <!-- Ajusta a largura da página à tela do dispositivo. -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cuidado em Saúde | Bem-estar</title>
+
+    <!-- Compartilha as cores e os estilos básicos com as outras páginas. -->
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <!-- Scripts JavaScript -->
+    <!-- O arquivo JS coloca o mesmo rodapé nas quatro páginas. -->
+    <script src="js/footer.js" defer></script>
+
 </head>
 <body>
     <!-- Cabeçalho com a identidade do projeto e o menu comum às quatro páginas. -->
     <header>
-        <!-- A div reúne a futura imagem de destaque e o título principal. -->
+        <!-- A div reúne a imagem de destaque e o título principal. -->
         <div class="identidade-visual">
-            <!-- A imagem de destaque será adicionada em uma etapa futura. -->
+            <img src="assets/imagens/cuidado-cofen.jpg" alt="Profissional de saúde segura as mãos de uma paciente em um leito">
             <h1>Cuidado em Saúde</h1>
         </div>
 
@@ -28,29 +36,31 @@
     </header>
 
     <!-- main contém o conteúdo específico desta página. -->
-    <main>
+    <main class="pagina-interna">
         <!-- section agrupa os três conteúdos sobre bem-estar. -->
         <section aria-labelledby="titulo-bem-estar">
             <h2 id="titulo-bem-estar">Bem-estar e acolhimento</h2>
-            <p>Aqui serão apresentados três conteúdos curtos, um abaixo do outro.</p>
+            <!-- Texto provisório de abertura. -->
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae neque sed justo facilisis tincidunt.</p>
 
             <!-- Cada article será um bloco com título, imagem e resumo próprios. -->
-            <article aria-labelledby="titulo-conteudo-1">
+            <article class="conteudo-bem-estar" aria-labelledby="titulo-conteudo-1">
                 <h3 id="titulo-conteudo-1">Conteúdo 1</h3>
-                <!-- Imagem do primeiro conteúdo a ser adicionada. -->
-                <p>Resumo do primeiro conteúdo a ser definido.</p>
+                <!-- O espaço da imagem será substituído por uma foto e sua fonte. -->
+                <div class="espaco-imagem">Imagem do conteúdo 1</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae neque sed justo facilisis tincidunt.</p>
             </article>
 
-            <article aria-labelledby="titulo-conteudo-2">
+            <article class="conteudo-bem-estar" aria-labelledby="titulo-conteudo-2">
                 <h3 id="titulo-conteudo-2">Conteúdo 2</h3>
-                <!-- Imagem do segundo conteúdo a ser adicionada. -->
-                <p>Resumo do segundo conteúdo a ser definido.</p>
+                <div class="espaco-imagem">Imagem do conteúdo 2</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae neque sed justo facilisis tincidunt.</p>
             </article>
 
-            <article aria-labelledby="titulo-conteudo-3">
+            <article class="conteudo-bem-estar" aria-labelledby="titulo-conteudo-3">
                 <h3 id="titulo-conteudo-3">Conteúdo 3</h3>
-                <!-- Imagem do terceiro conteúdo a ser adicionada. -->
-                <p>Resumo do terceiro conteúdo a ser definido.</p>
+                <div class="espaco-imagem">Imagem do conteúdo 3</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae neque sed justo facilisis tincidunt.</p>
             </article>
         </section>
 
@@ -62,8 +72,7 @@
         </nav>
     </main>
 
-    <footer>
-        <p>[Nome do aluno] | Desenvolvimento Web | Unisinos</p>
-    </footer>
+    <!-- O conteúdo deste footer é inserido pelo arquivo js/footer.js. -->
+    <footer></footer>
 </body>
 </html>

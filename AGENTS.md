@@ -24,11 +24,11 @@ Os nomes e textos finais dos conteúdos serão definidos antes da implementaçã
 
 ## Estrutura e navegação
 
-- Repetir `header`, `nav`, `main` e `footer` nas quatro páginas.
+- Repetir `header`, `nav` e `main` nas quatro páginas. Manter a tag `footer` em cada HTML e inserir seu conteúdo comum com `js/footer.js`.
 - No `header`, manter imagem de destaque, nome do projeto e links visíveis para as quatro páginas. O menu hambúrguer fica fora do escopo inicial.
 - No `footer`, identificar aluno(s), disciplina e instituição.
 - Incluir navegação sequencial ao fim do conteúdo: Início → Cuidados → Bem-estar → Autocuidado. Na página 2, o link para a anterior deve ser identificado como "Voltar ao Início". Na página 3, mostrar links para a anterior, para o Início e para a seguinte. Na página 4, mostrar links para a anterior e para o Início.
-- Usar links HTML para mudar de página. Reservar o JavaScript para a interação do checklist.
+- Usar links HTML para mudar de página. Usar JavaScript apenas para a interação do checklist e para inserir o rodapé comum.
 - A interface inicial terá cores neutras, como nos diagramas atuais; as fotografias serão exibidas em suas cores originais.
 
 ## Etapas de trabalho

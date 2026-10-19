@@ -1,4 +1,4 @@
-/* Regras básicas da página, mantendo a fonte padrão do navegador. */
+/* Regras comuns às quatro páginas, mantendo a fonte padrão do navegador. */
 :root {
     /* Alterar uma destas cores atualiza todos os lugares que a utilizam. */
     --cor-escura: #111;
@@ -80,13 +80,14 @@ main {
     padding: 36px 30px 48px;
 }
 
-main section {
+/* Apenas a apresentação da página inicial usa duas colunas. */
+main .apresentacao {
     display: grid;
     grid-template-columns: minmax(0, 2fr) minmax(240px, 1fr);
     gap: 24px 48px;
 }
 
-main section > h2 {
+main .apresentacao > h2 {
     grid-column: 1 / -1;
     margin: 0;
 }
@@ -97,6 +98,7 @@ aside h3 {
 }
 
 aside {
+    align-self: start;
     padding: 20px;
     border: 1px solid var(--cor-escura);
 }
@@ -117,6 +119,73 @@ aside figcaption {
     font-size: 0.9em;
 }
 
+/* As páginas internas apresentam o conteúdo em uma coluna. */
+.pagina-interna article,
+.pagina-interna section {
+    max-width: 760px;
+}
+
+.pagina-interna h2 {
+    margin-top: 0;
+}
+
+/* Área proporcional que receberá o vídeo incorporado. */
+.espaco-video {
+    display: grid;
+    place-items: center;
+    min-height: 280px;
+    padding: 20px;
+    border: 1px solid var(--cor-escura);
+    background: var(--cor-fundo-imagem);
+    text-align: center;
+}
+
+/* Os três conteúdos de bem-estar ficam um abaixo do outro. */
+.conteudo-bem-estar {
+    margin-top: 28px;
+    padding-top: 20px;
+    border-top: 1px solid var(--cor-escura);
+}
+
+.conteudo-bem-estar h3 {
+    margin-bottom: 12px;
+}
+
+.espaco-imagem {
+    display: grid;
+    place-items: center;
+    min-height: 180px;
+    padding: 20px;
+    background: var(--cor-fundo-imagem);
+    text-align: center;
+}
+
+/* Delimita o checklist e mantém os controles fáceis de identificar. */
+#checklist-autocuidado {
+    max-width: 760px;
+    margin-top: 24px;
+}
+
+#checklist-autocuidado fieldset {
+    border: 1px solid var(--cor-escura);
+}
+
+#checklist-autocuidado input {
+    margin-right: 8px;
+}
+
+#limpar-cuidados {
+    padding: 8px 14px;
+    border: 1px solid var(--cor-escura);
+    color: var(--cor-escura);
+    background: var(--cor-clara);
+    cursor: pointer;
+}
+
+#limpar-cuidados:disabled {
+    cursor: default;
+}
+
 .chamada {
     display: inline-block;
     padding: 8px 14px;
@@ -132,6 +201,9 @@ aside figcaption {
 }
 
 main > nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 24px;
     margin-top: 36px;
     padding-top: 16px;
     border-top: 1px solid var(--cor-escura);
@@ -171,7 +243,7 @@ footer a {
         margin-left: 20px;
     }
 
-    main section {
+    main .apresentacao {
         grid-template-columns: 1fr;
     }
 }
