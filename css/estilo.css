@@ -3,6 +3,7 @@
     /* Alterar uma destas cores atualiza todos os lugares que a utilizam. */
     --cor-escura: #111;
     --cor-clara: #fff;
+    --cor-fundo-suave: #f7f7f7;
     --cor-fundo-imagem: #ddd;
 }
 
@@ -13,7 +14,7 @@
 body {
     margin: 0;
     color: var(--cor-escura);
-    background: var(--cor-clara);
+    background: var(--cor-fundo-suave);
     line-height: 1.5;
 }
 
@@ -129,22 +130,26 @@ aside figcaption {
     margin-top: 0;
 }
 
-/* Área proporcional que receberá o vídeo incorporado. */
+/* Centraliza os blocos de Cuidados e Bem-estar sem centralizar o texto. */
+.conteudo-centralizado {
+    margin-inline: auto;
+}
+
+/* Mantém o vídeo centralizado, sem a caixa usada no protótipo. */
 .espaco-video {
     display: grid;
     place-items: center;
-    min-height: 280px;
-    padding: 20px;
-    border: 1px solid var(--cor-escura);
-    background: var(--cor-fundo-imagem);
-    text-align: center;
+}
+
+.espaco-video iframe {
+    max-width: 100%;
+    border: 0;
 }
 
 /* Os três conteúdos de bem-estar ficam um abaixo do outro. */
 .conteudo-bem-estar {
     margin-top: 28px;
     padding-top: 20px;
-    border-top: 1px solid var(--cor-escura);
 }
 
 .conteudo-bem-estar h3 {

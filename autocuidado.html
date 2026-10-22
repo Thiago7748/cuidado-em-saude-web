@@ -43,30 +43,30 @@
         <!-- section apresenta o checklist e sua finalidade. -->
         <section aria-labelledby="titulo-autocuidado">
             <h2 id="titulo-autocuidado">Checklist de autocuidado</h2>
+            <p>O autocuidado é a base para uma vida saudável e equilibrada. Pequenas atitudes diárias fazem toda a diferença na nossa saúde física e mental, ajudando a prevenir o stress e a aumentar a nossa energia. Assinale abaixo as práticas que já consegue incluir na sua rotina diária:</p>
+
             <p>Marque os cuidados que fazem parte da sua rotina.</p>
-            <!-- Texto provisório de apoio ao checklist. -->
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae neque sed justo facilisis tincidunt.</p>
 
             <!-- Esta div reúne os elementos usados pelo JavaScript do checklist. -->
             <div id="checklist-autocuidado">
-                <!-- fieldset agrupa as três caixas; legend dá um nome ao grupo. -->
-                <fieldset>
-                    <legend>Cuidados da rotina</legend>
+                <!-- fieldset agrupa as três caixas; aria-label identifica o grupo sem criar um título visível. -->
+                <fieldset aria-label="Cuidados da rotina">
 
                     <!-- Cada input é uma caixa de seleção; label associa o texto à caixa pelo id. -->
                     <p>
                         <input type="checkbox" id="cuidado-1" name="cuidados">
-                        <label for="cuidado-1">Cuidado 1 (conteúdo a definir)</label>
+                        <label for="cuidado-1">Bebo água regularmente ao longo do dia.</label>
                     </p>
 
                     <p>
                         <input type="checkbox" id="cuidado-2" name="cuidados">
-                        <label for="cuidado-2">Cuidado 2 (conteúdo a definir)</label>
+                        <label for="cuidado-2">Pratico alguma atividade física ou faço alongamentos.</label>
                     </p>
 
                     <p>
                         <input type="checkbox" id="cuidado-3" name="cuidados">
-                        <label for="cuidado-3">Cuidado 3 (conteúdo a definir)</label>
+                        <label for="cuidado-3">
+                            Reservo tempo de qualidade para descansar e relaxar a mente.</label>
                     </p>
                 </fieldset>
 
