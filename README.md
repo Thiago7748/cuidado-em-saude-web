@@ -1,12 +1,16 @@
 # Cuidado em Saúde
 
-![Página inicial do projeto Cuidado em Saúde](assets/capturas/inicio.png)
+![Protótipo das quatro páginas do projeto](assets/capturas/prototipo.png)
+
+[Abrir o protótipo editável no draw.io](prototipo-cuidado-em-saude.drawio)
 
 Projeto acadêmico da disciplina de Desenvolvimento Web do curso de Análise e Desenvolvimento de Sistemas da Unisinos. O site apresenta informações introdutórias sobre cuidado em saúde em quatro páginas.
 
 ## Início
 
 A página inicial apresenta o tema, os links de navegação e um conteúdo em destaque que leva à página de Cuidados.
+
+![Página inicial do projeto Cuidado em Saúde](assets/capturas/inicio.png)
 
 ## Cuidados
 
